@@ -11,6 +11,10 @@ packages = [{include = "reps_scheduler"}]
 python = "^3.10"
 
 
+[tool.poetry.group.deploy.dependencies]
+pytest = "^7.2.1"
+
+
 [tool.poetry.group.dev.dependencies]
 ipdb = "^0.13.11"
 ruff = "^0.0.247"
